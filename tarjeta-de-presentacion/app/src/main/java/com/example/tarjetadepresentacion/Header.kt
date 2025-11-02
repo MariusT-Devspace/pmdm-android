@@ -3,6 +3,7 @@ package com.example.tarjetadepresentacion
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -11,13 +12,17 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.tarjetadepresentacion.ui.theme.BusinessCardTheme
 import com.example.tarjetadepresentacion.ui.theme.displayFontFamily
 
 @Composable
-fun Header(modifier: Modifier = Modifier) {
+fun Header(
+    modifier: Modifier = Modifier,
+    imageSize: Dp
+) {
     Column(
         modifier,
         horizontalAlignment = Alignment.CenterHorizontally
@@ -25,7 +30,7 @@ fun Header(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(R.drawable.android_logo),
             null,
-            Modifier.width(230.dp)
+            Modifier.width(imageSize)
         )
         Text(
             "Marius Tichieru",
@@ -35,7 +40,8 @@ fun Header(modifier: Modifier = Modifier) {
         Text(
             stringResource(R.string.job_title),
             textAlign = TextAlign.Center,
-            modifier = Modifier.width(365.dp)
+            modifier = Modifier.width(365.dp),
+            color = MaterialTheme.colorScheme.onPrimaryContainer
         )
     }
 
@@ -45,6 +51,6 @@ fun Header(modifier: Modifier = Modifier) {
 @Composable
 fun HeaderPreview() {
     BusinessCardTheme {
-        Header()
+        Header(imageSize = 230.dp)
     }
 }
