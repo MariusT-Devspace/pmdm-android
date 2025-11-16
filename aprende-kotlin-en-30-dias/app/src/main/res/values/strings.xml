@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Aprende Kotlin en 30 dias</string>
+    <string name="aprende_kotlin_en_30_dias">Aprende Kotlin en 30 dias</string>
+    <string name="daily_roadmap">Roadmap diario</string>
+    <string name="dia">Día %1$d</string>
+    <string name="click_to_read_more">Click to read more</string>
+
+    <!--  Día 1  -->
+    <string name="day1_title">Introducción a Kotlin</string>
+    <string name="day1_description">Aprende qué es Kotlin, por qué es el lenguaje recomendado para Android y qué ventajas ofrece en cuanto a seguridad, sintaxis moderna y productividad.</string>
+
+    <!--  Día 2  -->
+    <string name="day2_title">Variables (val y var)</string>
+    <string name="day2_description">Entiende la diferencia entre val (inmutable) y var (mutable), cómo y cuándo usarlas, y por qué Kotlin favorece la inmutabilidad.</string>
+
+    <!--  Día 3  -->
+    <string name="day3_title">Strings e Interpolación</string>
+    <string name="day3_description">Explora cómo manejar cadenas, concatenación, plantillas de texto y la interpolación con expresiones dentro de strings.</string>
+
+    <!--  Día 4  -->
+    <string name="day4_title">Tipos Numéricos</string>
+    <string name="day4_description">Conoce los distintos tipos numéricos de Kotlin (Int, Float, Double, Long) y cuándo usar cada uno para mayor precisión o eficiencia.</string>
+
+    <!--  Día 5  -->
+    <string name="day5_title">Condicionales</string>
+    <string name="day5_description">Aprende a tomar decisiones en el código utilizando if, else y la poderosa expresión when para múltiples casos.</string>
+
+    <!--  Día 6  -->
+    <string name="day6_title">Listas</string>
+    <string name="day6_description">Descubre cómo funcionan List, MutableList y otras colecciones, cómo crearlas, modificarlas y recorrerlas.</string>
+
+    <!--  Día 7  -->
+    <string name="day7_title">Bucles</string>
+    <string name="day7_description">Aprende a repetir acciones utilizando for, while y do-while, además de recorrer colecciones de manera idiomática en Kotlin.</string>
+
+    <!--  Día 8  -->
+    <string name="day8_title">Null Safety</string>
+    <string name="day8_description">Comprende el sistema de tipos nulos de Kotlin, el operador ?, los null checks y cómo Kotlin previene errores típicos de null pointer.</string>
+
+    <!--  Día 9  -->
+    <string name="day9_title">Funciones</string>
+    <string name="day9_description">Define funciones, parámetros, valores de retorno y funciones de una sola línea para escribir código claro y reutilizable.</string>
+
+    <!--  Día 10  -->
+    <string name="day10_title">Parámetros y Argumentos</string>
+    <string name="day10_description">Explora parámetros por defecto, argumentos nombrados y cómo mejorar la legibilidad al llamar funciones.</string>
+
+    <!--  Día 11  -->
+    <string name="day11_title">Scope</string>
+    <string name="day11_description">Entiende el alcance de variables y funciones, y cómo Kotlin organiza visibilidad dentro de bloques y archivos.</string>
+
+    <!--  Día 12  -->
+    <string name="day12_title">Clases</string>
+    <string name="day12_description">Aprende a crear clases, propiedades y métodos para modelar objetos en tu aplicación, siguiendo el paradigma orientado a objetos.</string>
+
+    <!--  Día 13  -->
+    <string name="day13_title">Objetos</string>
+    <string name="day13_description">Descubre los objetos en Kotlin, los object declarations, singletons y cómo representar instancias reutilizables.</string>
+
+    <!--  Día 14  -->
+    <string name="day14_title">Herencia</string>
+    <string name="day14_description">Aprende cómo las clases pueden extender otras clases usando open, override y cómo reutilizar comportamiento.</string>
+
+    <!--  Día 15  -->
+    <string name="day15_title">Data Classes</string>
+    <string name="day15_description">Crea clases optimizadas para almacenar datos con métodos automáticos como toString, copy y equals.</string>
+
+    <!--  Día 16  -->
+    <string name="day16_title">Interfaces</string>
+    <string name="day16_description">Usa interfaces para definir contratos que las clases pueden implementar, permitiendo arquitectura flexible y desacoplada.</string>
+
+    <!--  Día 17  -->
+    <string name="day17_title">Enums</string>
+    <string name="day17_description">Define conjuntos de opciones constantes utilizando enum classes y agrega propiedades y funciones personalizadas.</string>
+
+    <!--  Día 18  -->
+    <string name="day18_title">Genéricos</string>
+    <string name="day18_description">Aprende a escribir código flexible usando tipos genéricos, constraints y cómo Kotlin maneja la variancia.</string>
+
+    <!--  Día 19  -->
+    <string name="day19_title">Colecciones Avanzadas</string>
+    <string name="day19_description">Explora operaciones avanzadas como map, filter, reduce, groupingBy y otras funciones útiles para transformar datos.</string>
+
+    <!--  Día 20  -->
+    <string name="day20_title">Lambdas</string>
+    <string name="day20_description">Comprende las funciones anónimas, sintaxis de lambdas y cómo utilizarlas para escribir código más conciso.</string>
+
+    <!--  Día 21  -->
+    <string name="day21_title">Funciones de Orden Superior</string>
+    <string name="day21_description">Aprende cómo las funciones pueden recibir otras funciones como parámetros o devolver funciones.</string>
+
+    <!--  Día 22  -->
+    <string name="day22_title">Manejo de Errores</string>
+    <string name="day22_description">Estudia try, catch, finally, excepciones personalizadas y buenas prácticas para evitar fallos inesperados.</string>
+
+    <!--  Día 23  -->
+    <string name="day23_title">DSLs de Kotlin para Colecciones</string>
+    <string name="day23_description">Descubre el estilo declarativo de Kotlin para construir y transformar colecciones de forma más expresiva.</string>
+
+    <!--  Día 24  -->
+    <string name="day24_title">Programación Funcional</string>
+    <string name="day24_description">Conoce los principios de la programación funcional en Kotlin, como inmutabilidad, funciones puras y composición.</string>
+
+    <!--  Día 25  -->
+    <string name="day25_title">Extensiones</string>
+    <string name="day25_description">Aprende a crear funciones de extensión para añadir comportamiento a clases sin modificarlas.</string>
+
+    <!--  Día 26  -->
+    <string name="day26_title">Coroutines</string>
+    <string name="day26_description">Introducción al manejo de concurrencia moderna usando coroutines, suspend, launch y async.</string>
+
+    <!--  Día 27  -->
+    <string name="day27_title">Suspensión</string>
+    <string name="day27_description">Comprende en detalle qué significa suspender una función, cómo opera el dispatcher y cómo evitar bloquear hilos.</string>
+
+    <!--  Día 28  -->
+    <string name="day28_title">Flow</string>
+    <string name="day28_description">Aprende a manejar flujos de datos asíncronos con Flow, operadores, colecciones y patrones de emisión.</string>
+
+    <!--  Día 29  -->
+    <string name="day29_title">Testing</string>
+    <string name="day29_description">Descubre cómo probar código Kotlin usando JUnit, assertions y buenas prácticas de testeo.</string>
+
+    <!--  Día 30  -->
+    <string name="day30_title">Proyecto Final</string>
+    <string name="day30_description">Aplica todo lo aprendido construyendo un proyecto completo en Kotlin para consolidar tus habilidades.</string>
+
+</resources>
